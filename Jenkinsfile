@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage ('pull code from git') {
             steps {
-                build   job: 'pull-code'
+                build   job: 'fizzbuzz-pull-source-code'
             }
         }
     }
